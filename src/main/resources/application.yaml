@@ -178,3 +178,4 @@ app:
     authorized-redirect-uris:
       - http://192.168.0.144:5001/oauth/redirect
       - http://112.222.157.156:5001/oauth/redirect
+      - https://${DB_HOST}:${DB_PORT}/oauth/redirect
