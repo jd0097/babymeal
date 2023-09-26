@@ -108,7 +108,6 @@ spring:
             user-info-uri: https://kapi.kakao.com/v2/user/me
             user-name-attribute: id
 
-
 # cors
 cors:
   allowed-origins: 'http://localhost:8080'
@@ -117,10 +116,10 @@ cors:
   max-age: 3600
 
 
-  data:
-    redis:
-      host: ${DB_HOST}
-      port: ${DB_REDISPORT}
+data:
+  redis:
+    host: ${DB_HOST}
+    port: ${DB_REDISPORT}
 
 # mybatis config
 mybatis:
