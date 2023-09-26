@@ -10,8 +10,8 @@ app:
     redis-refresh-key: "A-RT"
   oauth2:
     authorized-redirect-uris:
-      - http://localhost:8080/oauth/redirect #카카카카카
-      - http://192.168.0.207:8080/oauth/redirect
+      - http://${DB_HOST}:${DB_PORT}/oauth/redirect #카카카카카
+      - http://${DB_HOST}:${DB_PORT}/oauth/redirect
 
 springboot:
   jwt:
